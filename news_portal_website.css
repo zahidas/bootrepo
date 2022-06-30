@@ -47,3 +47,14 @@
 .bg-pages8{
     background-color:rgba(210, 228, 131, 0.582);
 }
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
