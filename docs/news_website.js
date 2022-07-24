@@ -1,0 +1,4 @@
+function displayAlert(){
+    alert("Subscribed.");
+}
+

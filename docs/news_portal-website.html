@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News site</title>
+    <link rel="stylesheet" href="news_portal_website.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="news_website.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="bg1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand h1 text-warning"
+                style="font-family: Georgia, 'Times New Roman', Times, serif;">Online News📰</a>
+            <button class="navbar-toggler" type="button" aria-controls="newsMenu" data-bs-toggle="collapse"
+                data-bs-target="#newsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="newsMenu">
+                <ul class="navbar-nav ">
+
+                    <li><a href="news_portal-website.html" class="nav-item nav-link text-light">Home</a></li>
+                    <div class="dropdown nav-item text-light">
+                        <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </button>
+                        <ul class="dropdown-menu bg-light" aria-labelledby="dropdownMenuButton1">
+                            <li><a target="_blank" class="dropdown-item text-danger"
+                                    href="https://economictimes.indiatimes.com/news/politics">Politics</a></li>
+                            <li><a target="_blank" class="dropdown-item text-danger"
+                                    href="https://www.nature.com/natindia/articles?type=news">Nature</a></li>
+                            <li><a target="_blank" class="dropdown-item text-danger"
+                                    href="https://www.indiatoday.in/crime">Crime</a></li>
+                            <li><a target="_blank" class="dropdown-item text-danger"
+                                    href="https://www.news18.com/tech/">technology</a></li>
+                        </ul>
+                    </div>
+                    <li><a href="https://news.google.com/topstories?hl=en-IN&gl=IN&ceid=IN:en"
+                            class="nav-item nav-link text-light">News</a></li>
+                    <li><a href="contact_page.html" class="nav-item nav-link text-light">Contact</a></li>
+                    <li><a href="About_page.html" class="nav-item nav-link text-light">About</a></li>
+                </ul>
+            </div>
+    </nav>
+    
+    <hr class="first">
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Get the latest news on trending topics.</h1>
+            <p class="lead">Subscribe for the latest news.</p>
+            <hr class="my-4">
+            <!-- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
+            <a class="btn  btn-lg btn-danger" href="subscribtion_page.html" role="button"
+                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" id="newButton">Subscribe</a>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h4 class="text-center">Headlines</h4>
+                <hr class="my-4">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://media.istockphoto.com/photos/waste-paper-pile-in-vintage-style-picture-id1057544948?b=1&k=20&m=1057544948&s=170667a&w=0&h=5-Xwfo43qunLpOqLC8QOSB_EgzR_Ay6G4rRfzk8H01U="
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">Today's newspaper</h5>
+                        <p class="card-text"> It gives information and opinions about current events and news. </p>
+                        <a href="newpaper_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1647215088128-1ccaeefb06f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG5ld3MlMjBwb3N0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">Parliment news</h5>
+                        <p class="card-text">the New Parliament Building is likely to be functional from Nov26</p>
+                        <a href="parliment_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1616259833980-afea7be4732f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmV3cyUyMHBvc3RlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">COVID-19<span class="badge bg-success">trending</span></h5>
+                        <p class="card-text">(COVID-19) is an infectious disease caused by the SARS-CoV-2 virus</p>
+                        <a href="covid_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- second row......................................... -->
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fG5ld3MlMjBwb3N0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">NASA<span class="badge bg-success">New</span></h5>
+                        <p class="card-text">making the agency the most advanced space agency on Earth.</p>
+                        <a href="nasa_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1644907102889-f8f97c3056f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fG5ld3MlMjBwb3N0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">Loha pul</h5>
+                        <p class="card-text">Work on bridge parallel to Loha Pul enters final lap</p>
+                        <a href="Loha_pul_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1596959717167-156006d2a2f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">Negro star</h5>
+                        <p class="card-text">covered African-American issues across the nation in various topics</p>
+                        <a href="negro_star_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next row started...................... -->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img src="https://i.ndtvimg.com/i/2017-10/coffee_650x400_81508581821.jpg" width="300px"
+                    alt="img not found" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Drinking Coffee Can Boost Prodctivity.</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>A new study says that a cup of coffee can boost your productivity at work. Coffee has the
+                            ability to make you feel less tired and can boost your energy levels. Are you aware of the
+                            health benefits of coffee?</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn btn-primary" type="button"><a href="coffee_page.html" class="text-light">Read
+                                more.</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- new row started................................ -->
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img src="https://media.istockphoto.com/photos/close-up-of-a-smart-young-woman-coding-picture-id1332378618?b=1&k=20&m=1332378618&s=170667a&w=0&h=wobDGfLkR3qAKWPidg-zth-A9ex4KCQQzzK_KXfAhxE="
+                    width="300px" alt="img not found" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Why computer programming or coding is so important for students in today's era</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Coding has emerged as the number-one in-demand skill in recent years. Here's why it is
+                            crucial for students to learn computer programming or coding in today's time.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn btn-primary" type="button"><a href="coding_page.html" class="text-light">Read
+                                more.</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- new row started........................ -->
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img src="https://images.news18.com/ibnlive/uploads/2021/12/bitcoin-jpg-16392231883x2.jpg?impolicy=website&width=510&height=356"
+                    width="300px" alt="img not found" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Is Bitcoin Legal in India? SC Asks Centre to Take Clear Stand on Cryptocurrencies</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>Taxing cryptocurrencies does not give them legal status in the country, finance minister
+                            Nirmala Sitharaman clarified in the Parliament. It’s the country’s sovereign right to tax
+                            cryptocurrency transactions.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn btn-primary" type="button"><a href="bitcoin_page.html"
+                                class="text-light">Read more.</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- new row started........................ -->
+
+        <div class="row mt-5">
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGRhdGElMjBhbmFseXNpc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                    width="300px" alt="img not found" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>BIG DATA ANALYTICS</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>News and insight into the implementation of artificial intelligence, automation, RPA,
+                            advanced data analytics, and business intelligence in businesses and other organizations.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <button class="btn btn-primary" type="button"><a href="data_analysis.html"
+                                class="text-light">Read more.</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1624623864107-ef79f850b554?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bmV3cyUyMHRlc2xhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">Tesla cars</h5>
+                        <p class="card-text">Tesla’s mission is to accelerate the world’s transition to sustainable energy </p>
+                        <a href="tesla_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmV3cyUyMGltYWdlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">Business</h5>
+                        <p class="card-text">the New Parliament Building is likely to be functional from Nov26</p>
+                        <a href="parliment_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fG5ld3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">Assembly at Apple<span class="badge bg-success">trending</span></h5>
+                        <p class="card-text">(COVID-19) is an infectious disease caused by the SARS-CoV-2 virus</p>
+                        <a href="covid_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- second row......................................... -->
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1526470608268-f674ce90ebd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fG5ld3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">World<span class="badge bg-success">New</span></h5>
+                        <p class="card-text">making the agency the most advanced space agency on Earth.</p>
+                        <a href="nasa_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://media.istockphoto.com/photos/female-leading-interview-with-journalists-outside-picture-id1350663727?b=1&k=20&m=1350663727&s=170667a&w=0&h=Zzw4DbVZNK-7i_U2I-9THHgNidl8dk2l4ADgB2vrwwc="
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">Peoples Questions</h5>
+                        <p class="card-text">Work on bridge parallel to Loha Pul enters final lap</p>
+                        <a href="Loha_pul_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-s-12">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://media.istockphoto.com/photos/visual-contents-concept-social-networking-service-streaming-video-picture-id1312418309?b=1&k=20&m=1312418309&s=170667a&w=0&h=IQjnPp5L9QsiXoLcqFrxOH_gqby80jDPKbu_TE-6_dY="
+                        height="200px" alt="img not found">
+                    <div class="card-body">
+                        <h5 class="card-title">Technology's</h5>
+                        <p class="card-text">covered African-American issues across the nation in various topics</p>
+                        <a href="negro_star_page.html" class="btn btn-danger">Read more.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <footer class="bg-dark card-footer">
+        <div class="bg-dark text-light text-center">
+            <a href="https://www.facebook.com/zahid.sayyed.3154284/about" target="_blank"
+                class="fa fa-facebook "></a>
+            <a href="https://twitter.com/sayyzad" target="_blank" class="fa fa-twitter "></a>
+            <a href="https://www.instagram.com/iamzahidsayyad__/" target="_blank" class="fa fa-instagram "></a>
+            <a href="https://github.com/zahidas" target="_blank" class="fa fa-github "></a>
+            <a href="https://www.linkedin.com/in/zahid-sayyad-349763236/?trk=public_post-embed_share-update_actor-text&originalSubdomain=in"
+                target="_blank" class="fa fa-linkedin "></a>
+                
+        </div>
+    </footer>
+</body>
+
+</html>

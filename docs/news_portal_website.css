@@ -1,0 +1,60 @@
+/* this is the new change in file for git */
+/* this is the  second new change in file for git */
+
+/* this is the first version */
+
+/* this is the second version */
+/* this is the third version */
+
+.first{
+    border-top: 2px solid goldenrod;
+}
+.my-4{
+    font-weight: bolder;
+    border-top: 2px solid gray;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.bg{
+    background-color: rgba(98, 128, 226, 0.37);
+}
+.bg1{
+    background-color: rgba(94, 94, 199, 0.342);
+}
+.bg-pages{
+    background-color: rgba(206, 158, 39, 0.616)
+}
+.bg-pages2{
+    background-color: rgba(170, 81, 18, 0.596);
+}
+.bg-pages3{
+    background-color: rgba(212, 107, 212, 0.425);
+}
+.bg-pages4{
+    background-color:rgba(54, 160, 146, 0.219);
+}
+.bg-pages5{
+    background-color:rgba(175, 9, 9, 0.507);
+}
+.bg-pages6{
+    background-color: rgba(0, 0, 0, 0.801);
+    color: rgb(212, 206, 206);
+}
+.bg-pages7{
+    background-color: rgba(134, 118, 97, 0.562);
+}
+.bg-pages8{
+    background-color:rgba(210, 228, 131, 0.582);
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }

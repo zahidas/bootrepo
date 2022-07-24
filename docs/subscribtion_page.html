@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News site</title>
+    <link rel="stylesheet" href="news_portal_website.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="news_website.js"></script>
+</head>
+
+<body>
+    <div class="bg-pages8">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand h1 text-warning"
+                style="font-family: Georgia, 'Times New Roman', Times, serif;">Online News📰</a>
+            <button class="navbar-toggler" type="button" aria-controls="newsMenu" data-bs-toggle="collapse"
+                data-bs-target="#newsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="newsMenu">
+                <ul class="navbar-nav ">
+
+                    <li><a href="news_portal-website.html" class="nav-item nav-link text-light">Home</a></li>
+                    <div class="dropdown nav-item text-light">
+                        <button class="btn text-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </button>
+                        <ul class="dropdown-menu bg-light" aria-labelledby="dropdownMenuButton1">
+                            <li><a target="_blank"  class="dropdown-item text-success" href="https://economictimes.indiatimes.com/news/politics">Politics</a></li>
+                            <li><a target="_blank" class="dropdown-item text-success" href="https://www.nature.com/natindia/articles?type=news">Nature</a></li>
+                            <li><a target="_blank" class="dropdown-item text-success" href="https://www.indiatoday.in/crime">Crime</a></li>
+                            <li><a target="_blank" class="dropdown-item text-success" href="https://www.news18.com/tech/">technology</a></li>
+                        </ul>
+                    </div>
+                    <li><a href="https://news.google.com/topstories?hl=en-IN&gl=IN&ceid=IN:en"
+                            class="nav-item nav-link text-light">News</a></li>
+                    <li><a href="contact_page.html" class="nav-item nav-link text-light">Contact</a></li>
+                    <li><a href="About_page.html" class="nav-item nav-link text-light">About</a></li>
+                </ul>
+            </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="contact_page.html" class="nav-link">24/7 help.</a></li>
+                    <li class="nav-item"><a href="contact_page.html" class="nav-link">what type of help you need?</a></li>
+                    <li class="nav-item"><a href="About_page.html" class="nav-link">rate us.</a></li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <div class="row mt-2">
+                    <div class="col-md-12">
+                        <img src="https://media.istockphoto.com/photos/subscribe-text-on-speech-bubble-with-envelopes-picture-id1346029753?b=1&k=20&m=1346029753&s=170667a&w=0&h=oJJ6L3g72irX-9zOz9tAWWYiWrqTgDgoanR0vGIYQtQ="
+                            class="img-fluid rounded mx-auto d-block" alt="">
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <h1 class="text-center">Subscribe our Page</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>ONLINE NEWS mission is to elevate humanity through the sharing of data. ONLINE NEWS has a vision of a world where complete and total knowledge is shared, and our most pressing problems that threaten the stability and existence of human beings are solved with data in a collective and collaborative effort across all nations and peoples.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form action="">
+                            <div class="form-group mt-3">
+                                <label for="email" class="fw-bold">Email</label>
+                                <input type="email" placeholder="Enter your Email" class="form-control">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="name" class="fw-bold">Name</label>
+                                <input type="text" placeholder="Enter your full name" class="form-control">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="name" class="fw-bold">City</label>
+                                <input type="text" placeholder="Enter your city name" class="form-control">
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="select" class="fw-bold">Rate our website</label>
+                                <select  name="" id="" class="form-control">
+                                    <option value="">Good</option>
+                                    <option value="">Better</option>
+                                    <option value="">Best</option>
+                                    <option value="">Other</option>
+                                </select>
+                            </div>
+                            <div class="mt-3">
+                            <h6 class="fw-bold">Gender:</h6>
+                            <div class="form-group form-inline">
+                                <input type="checkbox" class="form-check-input" value="" name="" id="check1">
+                                <label for="check1" class="form-check-label">Male</label>
+                            </div>
+                            <div class="form-group form-inline">
+                                <input type="checkbox" class="form-check-input" value="" name="" id="check2">
+                                <label for="check2" class="form-check-label">Female</label>
+                            </div>
+                            <div class="form-group form-inline">
+                                <input type="checkbox" class="form-check-input" value="" name="" id="check2">
+                                <label for="check2" class="form-check-label">Other</label>
+                            </div>
+                            </div>
+                             <div class="mt-3">
+                            <h6 class="fw-bold">Your subsribtion is about?</h6>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="Politics" id="radioid1" value="option 1" checked>
+                                <label for="radioid1" class="from-check-label">Politics</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="Technology" id="radioid2" value="option 2" >
+                                <label for="radioid2" class="from-check-label">Technology</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="Criminal" id="radioid3" value="option 3" >
+                                <label for="radioid3" class="from-check-label">Criminal</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="Nature" id="radioid4" value="option 4" >
+                                <label for="radioid4" class="from-check-label">Nature</label>
+                            </div>
+                            </div>
+        
+                            <div class="form-group mt-3">
+                                <label for="" class="fw-bold">Any suggetions?</label>
+                                <textarea name="" class="form-control" id="" cols="30" rows="7"></textarea>
+                            </div>
+                            <div class="mb-3 mt-3">
+                            <button type="button" class="btn btn-lg btn-primary" onclick="displayAlert()">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+    </div>
+    </div>
+    <footer class="bg-dark card-footer">
+        <div class="bg-dark text-light text-center">
+            <a href="https://www.facebook.com/zahid.sayyed.3154284/about" target="_blank"
+                class="fa fa-facebook "></a>
+            <a href="https://twitter.com/sayyzad" target="_blank" class="fa fa-twitter "></a>
+            <a href="https://www.instagram.com/iamzahidsayyad__/" target="_blank" class="fa fa-instagram "></a>
+            <a href="https://github.com/zahidas" target="_blank" class="fa fa-github "></a>
+            <a href="https://www.linkedin.com/in/zahid-sayyad-349763236/?trk=public_post-embed_share-update_actor-text&originalSubdomain=in"
+                target="_blank" class="fa fa-linkedin "></a>
+                
+        </div>
+    </footer>
+</body>
+</html>
